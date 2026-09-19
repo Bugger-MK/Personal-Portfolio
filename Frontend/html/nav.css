@@ -13,11 +13,13 @@ body{
 
 nav{
     width: 100%;
-    padding: 20px 0;
+    padding: 20px 5%;
     background: #1f0c0c;
     backdrop-filter: blur(10px);
 
-    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo{
