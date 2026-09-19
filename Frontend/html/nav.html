@@ -5,27 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="nav.css">
+    
+    <link rel="stylesheet" href="nav.js">
 </head>
 <body>
     
-    <nav>
-        <div class="logo">Logo</div>
+   <nav>
+    <a href="#" class="logo">Logo</a>
 
+    <ul class="nav-links" id="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
 
-        <ul class="nav-links">
-           <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
+    <a href="#contact" class="btn">Get Started</a>
 
-        <div class="btns">
-            <div class="btn">
-                Get Started
-            </div>
-        </div>
-    </nav>
+    <button class="navbar-toggle" aria-label="Toggle menu"
+            aria-expanded="false" aria-controls="nav-links">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </button>
+</nav>
 
-
+    <script src="nav.js"></script>
 </body>
 </html>
